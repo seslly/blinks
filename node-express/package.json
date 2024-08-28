@@ -1,0 +1,21 @@
+{
+  "name": "blink-express",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --hot run src/index.ts",
+    "lint": "prettier -w ."
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/express": "^4.17.21",
+    "prettier": "^3.3.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@solana/actions": "^1.6.4",
+    "express": "^4.19.2"
+  }
+}
